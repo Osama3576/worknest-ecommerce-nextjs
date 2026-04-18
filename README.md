@@ -1,12 +1,12 @@
 # WorkNest
 
-WorkNest is a premium full-stack Next.js store for desk setup and productivity accessories. It includes a premium storefront, account area, admin dashboard, Prisma + PostgreSQL data layer, Clerk authentication, Stripe-ready checkout, real remote product photos, and light/dark theme support.
+WorkNest is a premium full-stack Next.js store for desk setup and productivity accessories. It includes a premium storefront, account area, admin dashboard, Prisma + SQLite data layer, Clerk authentication, Stripe-ready checkout, real remote product photos, and light/dark theme support.
 
 ## Stack
 
 - Next.js App Router + TypeScript
 - Tailwind CSS
-- Prisma + PostgreSQL
+- Prisma + SQLite
 - Clerk authentication with route protection
 - Stripe checkout session + webhook-ready order updates
 - Zod validation
@@ -28,7 +28,7 @@ WorkNest is a premium full-stack Next.js store for desk setup and productivity a
    npm install
    ```
 
-4. Generate the Prisma client and push the PostgreSQL schema:
+4. Generate the Prisma client and push the SQLite schema:
 
    ```bash
    npm run prisma:generate
@@ -113,5 +113,5 @@ For reliable order confirmation, also add `STRIPE_WEBHOOK_SECRET` and point your
 
 - Admin access is granted to any email listed in `ADMIN_EMAILS`.
 - Recently viewed products are stored in local storage.
-- Product, order, address, coupon, review, wishlist, and newsletter data are persisted in PostgreSQL.
+- Product, order, address, coupon, review, wishlist, and newsletter data are persisted in SQLite.
 - Product images are seeded from remote product-photo URLs to make the storefront feel more realistic.
