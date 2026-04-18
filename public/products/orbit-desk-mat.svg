@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1080" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121831"/>
+      <stop offset="1" stop-color="#090C16"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="300" y1="180" x2="900" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="52" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="740" rx="36" fill="#0F1426" stroke="rgba(255,255,255,0.09)"/>
+  <ellipse cx="600" cy="720" rx="300" ry="56" fill="#000000" fill-opacity="0.25"/>
+  
+      <rect x="224" y="264" width="752" height="306" rx="38" transform="rotate(-6 224 264)" fill="#232A45"/>
+      <rect x="248" y="282" width="704" height="262" rx="28" transform="rotate(-6 248 282)" fill="#C8B08A"/>
+      <rect x="274" y="304" width="656" height="220" rx="24" transform="rotate(-6 274 304)" fill="#1A1F35" fill-opacity="0.6"/>
+      <circle cx="830" cy="388" r="42" fill="#F5F7FA" fill-opacity="0.88"/>
+      <path d="M812 388c0-10 8-18 18-18 7 0 12 4 15 9 3-5 8-9 15-9 10 0 18 8 18 18 0 24-33 43-33 43s-33-19-33-43Z" fill="#1B2035"/>
+    
+  <rect x="120" y="120" width="520" height="92" rx="28" fill="url(#shine)" opacity="0.28"/>
+  <text x="130" y="808" fill="#F8F8FD" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">Orbit Desk Mat</text>
+  <text x="130" y="850" fill="#8C93AC" font-family="Inter, Arial, sans-serif" font-size="24">Desk foundations</text>
+</svg>

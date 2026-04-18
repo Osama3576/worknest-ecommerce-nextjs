@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1080" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121831"/>
+      <stop offset="1" stop-color="#090C16"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="300" y1="180" x2="900" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="52" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="740" rx="36" fill="#0F1426" stroke="rgba(255,255,255,0.09)"/>
+  <ellipse cx="600" cy="720" rx="300" ry="56" fill="#000000" fill-opacity="0.25"/>
+  
+      <rect x="412" y="322" width="376" height="268" rx="44" fill="#303A59"/>
+      <circle cx="600" cy="456" r="102" fill="#101525"/>
+      <circle cx="600" cy="456" r="80" fill="#1B2239"/>
+      <circle cx="600" cy="456" r="80" stroke="#FFBE3B" stroke-width="14" stroke-dasharray="360 120" stroke-linecap="round"/>
+      <text x="560" y="470" fill="#F8F8FC" font-family="Inter, Arial" font-size="42" font-weight="700">25</text>
+    
+  <rect x="120" y="120" width="520" height="92" rx="28" fill="url(#shine)" opacity="0.28"/>
+  <text x="130" y="808" fill="#F8F8FD" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">Focus Timer Pad</text>
+  <text x="130" y="850" fill="#8C93AC" font-family="Inter, Arial, sans-serif" font-size="24">Intentional workflow</text>
+</svg>

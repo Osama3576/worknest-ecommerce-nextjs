@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1080" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121831"/>
+      <stop offset="1" stop-color="#090C16"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="300" y1="180" x2="900" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="52" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="740" rx="36" fill="#0F1426" stroke="rgba(255,255,255,0.09)"/>
+  <ellipse cx="600" cy="720" rx="300" ry="56" fill="#000000" fill-opacity="0.25"/>
+  
+      <rect x="286" y="320" width="628" height="54" rx="18" fill="#101525"/>
+      <rect x="286" y="374" width="628" height="22" rx="11" fill="#F4C96B" fill-opacity="0.85"/>
+      <rect x="566" y="396" width="68" height="200" rx="20" fill="#1F2640"/>
+      <rect x="444" y="596" width="312" height="44" rx="18" fill="#262E47"/>
+      <circle cx="600" cy="250" r="110" fill="#FFBE3B" fill-opacity="0.18"/>
+    
+  <rect x="120" y="120" width="520" height="92" rx="28" fill="url(#shine)" opacity="0.28"/>
+  <text x="130" y="808" fill="#F8F8FD" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">Halo Beam Desk Light</text>
+  <text x="130" y="850" fill="#8C93AC" font-family="Inter, Arial, sans-serif" font-size="24">Ambient lighting</text>
+</svg>

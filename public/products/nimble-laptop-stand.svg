@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1080" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121831"/>
+      <stop offset="1" stop-color="#090C16"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="300" y1="180" x2="900" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="52" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="740" rx="36" fill="#0F1426" stroke="rgba(255,255,255,0.09)"/>
+  <ellipse cx="600" cy="720" rx="300" ry="56" fill="#000000" fill-opacity="0.25"/>
+  
+      <path d="M368 532h464" stroke="#B7BFCD" stroke-width="26" stroke-linecap="round"/>
+      <path d="M432 532 580 334" stroke="#D9DFEB" stroke-width="30" stroke-linecap="round"/>
+      <path d="M768 532 620 334" stroke="#AAB2C4" stroke-width="30" stroke-linecap="round"/>
+      <rect x="454" y="292" width="292" height="42" rx="14" fill="#232A46"/>
+      <rect x="470" y="258" width="260" height="34" rx="12" fill="#808A9F"/>
+    
+  <rect x="120" y="120" width="520" height="92" rx="28" fill="url(#shine)" opacity="0.28"/>
+  <text x="130" y="808" fill="#F8F8FD" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">Nimble Laptop Stand</text>
+  <text x="130" y="850" fill="#8C93AC" font-family="Inter, Arial, sans-serif" font-size="24">Portable lift</text>
+</svg>
